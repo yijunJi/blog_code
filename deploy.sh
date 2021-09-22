@@ -2,7 +2,7 @@
 #当发生错误中止脚本
 set -e
 # cd 到构建输出的目录下
-cd dist
+cd ./docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
