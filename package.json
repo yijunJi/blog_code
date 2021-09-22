@@ -1,0 +1,16 @@
+{
+  "name": "jiyijun.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yijunJi/jiyijun.github.io.git",
+  "author": "jiyijun <jiyijun@maoyan.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
