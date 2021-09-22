@@ -7,5 +7,5 @@ git init
 git add -A
 git commit -m 'deploy'
 # 这里的access_token是travis设置的环境变量
-git push -f https://${jiyijun}@github.com/yijunJi/jiyijun.github.io.git master
+git push -f https://${jiyijun}@github.com/yijunJi/yijunJi.github.io.git master
 cd -  # 返回上一层
