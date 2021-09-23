@@ -14,5 +14,8 @@ module.exports = {
         path: '/js/',
       }
     ]
+  },
+  markdown: {
+    lineNumbers: true
   }
 }
