@@ -22,14 +22,14 @@ const obj = {
 }
 obj.getB = getB
 obj.getB() 
-// 如果调用getB的是一个函数打印结果会是什么。这里的this指的是什么？提示：js中万物皆为对象
+// 如果调用getB的是一个函数打印结果会是什么。这里的this指的是什么？提示：函数亦是对象
 function func() {}
 func.b = 1
 func.getB = getB
 func.getB()
 ```
 
-现在对于如何实现bind、apply、call是否有一些思路了呢。接下来让我们自己实现一个call函数
+现在对于如何实现bind、apply、call是否有一些思路了呢？接下来让我们自己实现一个call函数。
 
 ```js
 // call的功能：
