@@ -10,8 +10,16 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: '浏览器',
+        path: '/chrome/'
+      },
+      {
         title: 'Javascript',
         path: '/js/',
+      },
+      {
+        title: 'React',
+        path: '/react/'
       }
     ]
   },
